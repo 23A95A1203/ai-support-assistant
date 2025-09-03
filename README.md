@@ -135,8 +135,14 @@ Dashboard 👉 [http://localhost:3000](http://localhost:3000)
 5. **Analytics** → See real-time email insights & stats.  
 
 ---
-<img width="1366" height="768" alt="Screenshot (174)" src="https://github.com/user-attachments/assets/89822406-64df-47e6-8a4e-9e84bb5bf80c" />
- <img width="1366" height="768" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/868f318a-29d6-4563-94cd-a3fc8a77d3e2" />
+<img width="1366" height="768" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/3654f03a-ba0e-4dcf-b2e2-68a67997e01f" />
+<img width="1366" height="768" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/7a977fcb-cc0d-4012-9427-5b4a46fb8020" />
+<img width="1366" height="768" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/cc9b565f-1433-48b2-b359-13bbd3133f53" />
+<img width="1366" height="768" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/9fe1bbd9-3ecb-4f4b-9135-3c9dea645c2d" />
+<img width="1366" height="768" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/8c9d88f5-3aaf-43bf-9a25-f6aaeb3ead42" />
+
+
+ 
 
 
 ## 📊 Demo Screens (placeholders)
