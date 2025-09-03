@@ -135,13 +135,15 @@ Dashboard 👉 [http://localhost:3000](http://localhost:3000)
 5. **Analytics** → See real-time email insights & stats.  
 
 ---
+<img width="1366" height="768" alt="Screenshot (174)" src="https://github.com/user-attachments/assets/89822406-64df-47e6-8a4e-9e84bb5bf80c" />
+<img width="1366" height="768" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/89822406-64df-47e6-8a4e-9e84bb5bf80c" />
 
 ## 📊 Demo Screens (placeholders)
 - Email List View  
 - Draft Reply Panel  
 - Analytics Dashboard (Pie/Bar charts)  
 
-_Add screenshots here after running the frontend._  
+ 
 
 ---
 
