@@ -136,7 +136,8 @@ Dashboard 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 <img width="1366" height="768" alt="Screenshot (174)" src="https://github.com/user-attachments/assets/89822406-64df-47e6-8a4e-9e84bb5bf80c" />
-<img width="1366" height="768" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/89822406-64df-47e6-8a4e-9e84bb5bf80c" />
+ <img width="1366" height="768" alt="Screenshot (175)" src="https://github.com/user-attachments/assets/868f318a-29d6-4563-94cd-a3fc8a77d3e2" />
+
 
 ## 📊 Demo Screens (placeholders)
 - Email List View  
