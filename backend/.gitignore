@@ -1,0 +1,6 @@
+# backend/.gitignore
+.env
+emails.db
+dump.sql
+__pycache__/
+venv/
