@@ -85,3 +85,36 @@ def update_draft(id: int, payload: dict):
     draft = payload.get("draft_reply")
     update_email(id, draft_reply=draft)
     return {"status": "ok"}
+
+
+# ✅ New endpoint to generate draft for a single email
+@app.get("/email/{id}/generate-draft")
+def generate_single_draft(id: int):
+    email = get_email(id)
+    if not email:
+        return {"error": "Email not found"}, 404
+
+    text = f"{email.get('subject', '')}\n{email.get('body', '')}"
+    sentiment = analyze_sentiment(text)
+    priority = detect_priority(text)
+    phone, alt_email = extract_contact_details(text)
+    draft = generate_draft_reply(
+        email['sender'],
+        email['subject'],
+        email['body'],
+        sentiment,
+        priority,
+        {"phone": phone, "alt_email": alt_email}
+    )
+    
+    # Update the email with this draft
+    update_email(
+        email['id'],
+        draft_reply=draft,
+        sentiment=sentiment,
+        priority=priority,
+        phone=phone,
+        alt_email=alt_email
+    )
+
+    return {"draft_reply": draft}

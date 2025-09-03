@@ -1,14 +1,57 @@
 # backend/seed_dummy_emails.py
 from db import init_db, insert_email
-from datetime import datetime, timedelta
+from datetime import datetime
 
 def seed():
     init_db()
-    now = datetime.now()
-    insert_email("alice@example.com", "Support: Cannot access account", "Hi team, I cannot access my account since yesterday. It's urgent!", (now - timedelta(hours=2)).isoformat())
-    insert_email("bob@example.com", "Request: Refund for Order #1234", "I want a refund. The product seems defective. Please process ASAP.", (now - timedelta(hours=3)).isoformat())
-    insert_email("carol@example.com", "Query: Premium plan features", "Could you share more details about the premium plan and pricing?", (now - timedelta(days=1)).isoformat())
-    print("Seeded dummy emails.")
+    
+    emails = [
+        ("eve@startup.io", "Help required with account verification",
+         "Do you support integration with third-party APIs? Specifically, I’m looking for CRM integration options.", "2025-08-19 00:58"),
+        ("diana@client.co", "General query about subscription",
+         "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?", "2025-08-25 00:58"),
+        ("eve@startup.io", "Immediate support needed for billing error",
+         "Hello, I wanted to understand the pricing tiers better. Could you share a detailed breakdown?", "2025-08-20 12:58"),
+        ("alice@example.com", "Urgent request: system access blocked",
+         "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?", "2025-08-21 21:58"),
+        ("eve@startup.io", "Question: integration with API",
+         "Despite multiple attempts, I cannot reset my password. The reset link doesn’t seem to work.", "2025-08-20 04:58"),
+        ("alice@example.com", "Critical help needed for downtime",
+         "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?", "2025-08-18 08:58"),
+        ("diana@client.co", "Help required with account verification",
+         "There is a billing error where I was charged twice. This needs immediate correction.", "2025-08-20 19:58"),
+        ("diana@client.co", "Support needed for login issue",
+         "I am facing issues with verifying my account. The verification email never arrived. Can you assist?", "2025-08-23 06:58"),
+        ("alice@example.com", "General query about subscription",
+         "Our servers are down, and we need immediate support. This is highly critical.", "2025-08-26 02:58"),
+        ("alice@example.com", "Help required with account verification",
+         "Do you support integration with third-party APIs? Specifically, I’m looking for CRM integration options.", "2025-08-21 13:58"),
+        ("diana@client.co", "Support needed for login issue",
+         "Hi team, I am unable to log into my account since yesterday. Could you please help me resolve this issue?", "2025-08-26 15:58"),
+        ("alice@example.com", "Help required with account verification",
+         "Do you support integration with third-party APIs? Specifically, I’m looking for CRM integration options.", "2025-08-24 05:58"),
+        ("eve@startup.io", "Critical help needed for downtime",
+         "Our servers are down, and we need immediate support. This is highly critical.", "2025-08-21 19:58"),
+        ("alice@example.com", "Query about product pricing",
+         "There is a billing error where I was charged twice. This needs immediate correction.", "2025-08-24 13:58"),
+        ("alice@example.com", "General query about subscription",
+         "I am facing issues with verifying my account. The verification email never arrived. Can you assist?", "2025-08-26 01:58"),
+        ("alice@example.com", "Immediate support needed for billing error",
+         "Despite multiple attempts, I cannot reset my password. The reset link doesn’t seem to work.", "2025-08-19 07:58"),
+        ("charlie@partner.org", "Help required with account verification",
+         "This is urgent – our system is completely inaccessible, and this is affecting our operations.", "2025-08-18 00:58"),
+        ("diana@client.co", "Request for refund process clarification",
+         "Could you clarify the steps involved in requesting a refund? I submitted one last week but have no update.", "2025-08-22 17:58"),
+        ("eve@startup.io", "Query about product pricing",
+         "Our servers are down, and we need immediate support. This is highly critical.", "2025-08-22 09:58"),
+        ("bob@customer.com", "Urgent request: system access blocked",
+         "Despite multiple attempts, I cannot reset my password. The reset link doesn’t seem to work.", "2025-08-19 13:58"),
+    ]
+    
+    for sender, subject, body, received_at in emails:
+        insert_email(sender, subject, body, received_at)
+
+    print("Seeded full dummy emails.")
 
 if __name__ == "__main__":
     seed()
