@@ -136,9 +136,12 @@ Dashboard 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 <img width="1366" height="768" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/3654f03a-ba0e-4dcf-b2e2-68a67997e01f" />
-<img width="1366" height="768" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/3654f03a-ba0e-4dcf-b2e2-68a67997e01f" />
-<img width="1366" height="768" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/3654f03a-ba0e-4dcf-b2e2-68a67997e01f" />
-<img width="1366" height="768" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/3654f03a-ba0e-4dcf-b2e2-68a67997e01f" />
+<img width="1366" height="768" alt="Screenshot (180)" src="https://github.com/user-attachments/assets/7a977fcb-cc0d-4012-9427-5b4a46fb8020" />
+<img width="1366" height="768" alt="Screenshot (181)" src="https://github.com/user-attachments/assets/cc9b565f-1433-48b2-b359-13bbd3133f53" />
+<img width="1366" height="768" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/9fe1bbd9-3ecb-4f4b-9135-3c9dea645c2d" />
+<img width="1366" height="768" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/8c9d88f5-3aaf-43bf-9a25-f6aaeb3ead42" />
+
+
  
 
 
